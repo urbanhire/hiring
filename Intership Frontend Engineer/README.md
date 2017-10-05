@@ -9,7 +9,7 @@ Please make html page for image **[tab-0.png](https://github.com/urbanhire/hirin
 - The Design using **Source Sans Pro** fonts please check the folder materials, or if you using google font online should be good, here the link [https://fonts.google.com/specimen/Source+Sans+Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
 - Using [Bootstrap](https://getbootstrap.com/docs/3.3/) as CSS Framework for this project
 - Make sure it works for every browser (Chrome, Firefox, Safari, Edge or IE 9/10)
-- When Users click `Manage share links` on ** tab-0.png ** file, it should popup modals for **tab-1.png**
+- When Users click `Manage share links` on **tab-0.png** file, it should popup modals for **tab-1.png**
 
 
 If you have any questions, just email our teams at **dev@urbanhire.com **
