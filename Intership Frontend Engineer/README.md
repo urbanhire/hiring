@@ -2,7 +2,9 @@
 
 ## You're a Internship frontend developer for Urbanhire project.
 
-Please make html page for image **tab-0.png** and **tab-1.png**
+
+
+Please make html page for image **[tab-0.png](https://github.com/urbanhire/hiring/blob/master/Intership%20Frontend%20Engineer/images/tab-0.png)** and **[tab-1.png](https://github.com/urbanhire/hiring/blob/master/Intership%20Frontend%20Engineer/images/tab-1.png)**
 
 - The Design using **Source Sans Pro** fonts please check the folder materials, or if you using google font online should be good, here the link [https://fonts.google.com/specimen/Source+Sans+Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
 - Using [Bootstrap](https://getbootstrap.com/docs/3.3/) as CSS Framework for this project
