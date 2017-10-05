@@ -7,7 +7,7 @@ Welcome! We've been expecting you. Urbanhire is tools empower companies to inspi
 
 If you're someone who bleeds code and aches to make a difference in the world, then you are at the right place. You will be part of a world‑class team working on the most exciting ground‑breaking technology in an inspiring and collaborative environment.
 
-####Javascript in this document usually means Node.js
+#### Javascript in this document usually means Node.js
 
 ## Basics
 
@@ -23,21 +23,25 @@ This is the Urbanhire backend developer challenge. The rules of the challenge ar
 ## The Challenge 
 
 ### What You'll need to build
-* You'll need to build a scraper, that will scrape [https://www.linkedin.com/jobs/view-all](https://www.linkedin.com/jobs/view-all) and store them in a database (e.g [Linkedin Jobs](https://www.linkedin.com/jobs/view-all) ) we prefer you use **MongoDB** as database since we used it right now.
-* You will then need to provide an endpoint using [ExpressJS](http://expressjs.com) to provide list jobs, details jobs.
-* Using a job id There should be an endpoint for to show us the jobs information.
- 
+* You'll need to build a scraper, that will scrape this [website](https://www.karirpad.com/lowongan/kerja/semuanya) and store them in a database (e.g [Linkedin Jobs](https://www.linkedin.com/jobs/view-all) ) we prefer you use **MongoDB** as database since we used it right now, and please use [Mongoose](http://mongoosejs.com/) as ODM for your MongoDB
+* You will then need to provide an API or end-point using [ExpressJS](http://expressjs.com) or  [Fastify](https://www.fastify.io/) Framework to provide list jobs, details jobs.
+* `jobSlug` or `jobId` There should be an uniq filed to show us the jobs information with API end-points
+
 
 ### Bits and Pieces to take note of
 
+
 #### Scraper
-* the scraper can be written in any language (Bonus points for being written in javascript! :D)  
+
+* the scraper can be written in any language (Bonus points for being written in nodejs! :D)  
 * the scraper should store - 
 	* Job Name
 	* Company Company
 	* Company Logo
 	* Job Location
-	* All Job information provided, 
+	* Job Function
+	* Job Industry
+	* All Job information provided by the site, as much as possible 
 
 	
 #### API
@@ -51,9 +55,7 @@ This is the Urbanhire backend developer challenge. The rules of the challenge ar
 ## Judging Criteria 
 * What you have produced will determine your final outcome. You will be scored based upon your coding style and the ability to follow "good code" [See: JavaScript Standard Style 
 ](http://standardjs.com/rules.html), at Urbanhire we use [StandardJS](http://standardjs.com/index.html)
-* More than your ability to code we want to see your ability to learn. So you are encouraged to ask questions. [Hengki](mailto:hengki@urbanhire.com) or [UH Engineers](mailto:dev@urbanhire.com)
-
+* More than your ability to code we want to see your ability to learn. So you are encouraged to ask questions to our teams at [UH Engineers](mailto:dev@urbanhire.com)
 
 
 # Happy Hacking!
-
