@@ -1,0 +1,440 @@
+
+
+.wrapper {
+
+  height: 562px;
+  width: 602px;
+  background-color: #ffffff;
+  border-radius:5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+body{
+
+
+  margin-top: 5px!important;
+   margin-bottom: 0px;
+   margin-left: 5px!important;
+   margin-right: 0px;
+   padding:0;
+}
+.header{
+
+display:block;
+margin-left: :10px;
+font-size: 17px;
+font-weight:bold;
+font-style: normal;
+padding:12px;
+border-bottom: 2px solid #efefef;
+height: 50px;
+}
+.header span{
+  margin-left: 10px;
+}
+.clearfix {
+    overflow: auto;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+.floatr{
+
+  float:right;
+}
+.floatl{
+
+  float:left;
+}
+.center{
+  text-align: center;
+}
+.tabulasi{
+  padding-bottom: 10px;
+  border-bottom: 3px solid #efefef;
+}
+.aktip{
+  color:#173155;
+  font-weight: 700;
+
+  border-bottom: 3px solid #173155;
+}
+.content{
+  font-size: 12px;
+padding-top: 9px;
+padding-bottom: 10px;
+padding-left: 22px;
+padding-right: 22px;
+}
+.formulir{
+  padding-left: 5px;
+  padding-top: 7px;
+  width: 565px;
+  display: block;
+}
+label{
+  font-family: 'Source Sans Pro', sans-serif!important;
+  font-weight: 400;
+}
+.msg{
+  background-color: #f5f5f5;
+  width: 560px;
+  height: 105px;
+  border-radius: 5px;
+  border:1px solid #dddddd;
+  padding-top: 3px;
+  padding-left: 20px;
+}
+.mgr10{
+  margin-top: -5px;
+}
+.bluelikethat{
+  color:#173155;
+  width: 24px;
+  height: 20px;
+  float:left;
+}
+i.ion-ios-email-outline{
+font-size:33px;
+margin-top: -10px;
+}
+i.ion-ios-settings{
+font-size:22px;
+margin-top: 10px;
+margin-right: 13px;
+}
+.ms{
+    font-family: 'Source Sans Pro', sans-serif!important;
+  padding-top: 13px;
+  padding-left: 1px!important;
+  float:left;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  padding-right: 70px!important;
+}
+.ms p{
+    font-family: 'Source Sans Pro', sans-serif!important;
+  margin-top: 6px;
+  font-style: normal!important;
+}
+.mgr20{
+  margin-right: 20px;
+  margin-left: -77px;
+}
+
+.mgt20{
+  margin-top: 17px!important;
+}
+.manage{
+    font-family: 'Source Sans Pro', sans-serif!important;
+  margin-top: 10px;
+
+}
+#modalla{
+    color:#3096db!important   ;
+}
+.modal-footer{
+  display: block!important;
+}
+.footer{
+  font-family: 'Source Sans Pro', sans-serif!important;
+  margin-top: 20px;
+
+  border-top: 1px solid #ccc;
+  padding: 20px;
+}
+.footerkanan{
+  padding-left: 60px!important;
+}
+.btn-infok {
+    color: black;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #888888;
+    font-size: 14px!important;
+    border-radius: 0!important;
+    width:100px!important;
+    height: 37px;
+}
+.btn-can{
+  color: red;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-size: 14px!important;
+  border-radius: 0!important;
+  width:100px!important;
+  height: 37px;
+  margin-right: 7px;
+}
+table .btn-can{
+  color: red;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-size: 14px!important;
+  border-radius: 0!important;
+  width:100px!important;
+  height: 30px;
+  margin-right: 7px;
+}
+.modal-title{
+    font-family: 'Source Sans Pro', sans-serif!important;
+  font-weight: 700;
+  color:#aeaeae;
+}
+.modal-title strong{
+
+  color:black;
+}
+.btn-sen{
+  color: #ffffff;
+  background-color: #173155;
+  box-shadow: 1px 1px 1px 1px #888888;
+  font-size: 14px!important;
+  border-radius: 0!important;
+    width:133px!important;
+  height: 38px;
+}
+
+.fade.in {
+  opacity: 1;
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.modal-backdrop .fade .in {
+  opacity: 0.5 !important;
+}
+
+
+.modal-backdrop.fade {
+    opacity: 0.5 !important;
+}
+.grey{
+  color:#a6a6a6;
+}
+.help{
+background-color: #f5f5f5;
+height: 60px;
+border: 1px solid #dddddd;
+padding: 12px;
+font-style: italic;
+}
+.help span{
+  margin-top: 7px;
+  float: left;
+}
+.ion-ios-help-outline{
+  float:left;
+  color:#55d8de;
+  font-size: 26px;
+  margin-right: 5px;
+
+}
+/*CSS ga guna*/
+.toggle3 > span:before, .toggle3 > span:after {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.toggle3 {
+  height: 18px;
+  width: 100px;
+  margin: 0px 2px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.toggle3 * {
+  padding: 0;
+  margin-right: 20px;
+  outline: none;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.toggle3 > span {
+  line-height: 20px;
+  height: 20px;
+  width: 100%;
+  vertical-align: middle;
+  padding-right: 50px;
+  white-space: nowrap;
+}
+.toggle3 > span:before {
+  content: '';
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -2px;
+  background-color: green;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+.toggle3 > span:after {
+  content: 'NO';
+  font-size: 12px!important;
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  right: 50%;
+  left: 2px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.toggle3 > span span {
+  display: block;
+  width: 100%;
+  font-size: 0.9em;
+  top: -1px;
+  left: 25%;
+  opacity: 0;
+  z-index: 5;
+}
+.toggle3 > span span:first-of-type {
+  opacity: 1;
+  color: #ccc;
+  left: 55%;
+}
+
+.toggle3 input[type="checkbox"] {
+  opacity: 0;
+  z-index: 5;
+}
+.toggle3 input[type="checkbox"]:checked ~ span:before {
+  background-color:red;
+  box-shadow: 1px 1px 1px 1px rgba(51, 51, 102, 0.5) inset;
+}
+.toggle3 input[type="checkbox"]:checked ~ span:after {
+  border-color: transparent;
+  background-color: #fff;
+  position: relative;
+  margin-left: 30px;
+  content: '';
+}
+.toggle3 input[type="checkbox"]:checked ~ span span:first-of-type {
+  opacity: 0;
+}
+.toggle3 input[type="checkbox"]:checked ~ span span:last-of-type {
+  opacity: 1;
+  color: #fff;
+}
+
+/* Style */
+.toggle3.gradient input ~ span:before {
+  background: #0770B2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0770B2), to(#2FA3D0));
+  background: -moz-linear-gradient(center top, #0770B2 0%, #2FA3D0 70%);
+  background: -moz-gradient(center top, #0770B2 0%, #2FA3D0 70%);
+  background: -webkit-linear-gradient(top, #0770B2 0%, #2FA3D0 70%);
+  background: -o-linear-gradient(top, #0770B2 0%, #2FA3D0 70%);
+  background: -ms-linear-gradient(top, #0770B2 0%, #2FA3D0 70%);
+  background: linear-gradient(to bottom, #0770B2 0%, #2FA3D0 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0770B2', endColorstr='#2FA3D0',GradientType=0 );
+}
+.toggle3.gradient input ~ span:after {
+  background: #B7B7B7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B7B7B7), to(white));
+  background: -moz-linear-gradient(center top, #B7B7B7 0%, white 70%);
+  background: -moz-gradient(center top, #B7B7B7 0%, white 70%);
+  background: -webkit-linear-gradient(top, #B7B7B7 0%, white 70%);
+  background: -o-linear-gradient(top, #B7B7B7 0%, white 70%);
+  background: -ms-linear-gradient(top, #B7B7B7 0%, white 70%);
+  background: linear-gradient(to bottom, #B7B7B7 0%, white 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B7B7B7', endColorstr='white',GradientType=0 );
+}
+
+.toggle3.square input ~ span:before, .toggle3.square input ~ span:after {
+  border-radius: 2px;
+
+
+}
+
+/* Label Sizes */
+
+.toggle3.label150 {
+  padding-top: 4px;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+.toggle3.label150 > span:before {
+  /*kotakijo*/
+  left: 170px;
+}
+.toggle3.label150 > span {
+  left: -70px;
+}
+.toggle3.label150 > span span {
+  /*tulisan yes bg ijo*/
+  margin-left: 165px;
+  font-size: 12px!important;
+}
+.toggle3.label150 input ~ span:after {
+  left: 170px;
+  top: -20px;
+}
+.toggle3.label150 input:checked ~ span:after {
+  margin-left: 30px;
+}
+
+/* Checkbox Sizes */
+
+
+.toggle3.xlarge {
+  width: 100px;
+  height: 32px;
+}
+.toggle3.xlarge > span {
+  height: 32px;
+  line-height: 35px;
+}
+.toggle3.xlarge > span span {
+  font-size: 18px;
+}
+.toggle3.xlarge > span span:first-of-type {
+  left: 70%;
+}
+.toggle3.xlarge input ~ span:after {
+  /*kotakputih*/
+  width: 50px;
+  height: 32px;
+}
+.toggle3.xlarge input:checked ~ span:after {
+  /*ukuran kotak kecil stelah*/
+  margin-left:50px;
+  border: 1px solid #ccc;
+  content: 'YES'
+}
+.toggle3.xlarge.label100 input ~ span:after, .toggle3.xlarge.label150 input ~ span:after {
+  top: -37px;
+}
+table .toggle3.label150 {
+    padding-top: -68px;
+    margin-left: -106px;
+    margin-right: 20px;
+    top:-20px;
+}
+.header .pos{
+  margin-left: 215px;
+}
