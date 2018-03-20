@@ -17,6 +17,7 @@ This is the Urbanhire backend developer challenge. The rules of the challenge ar
 * clone the project
 * npm install
 * npm test, check unit test whether passed or not each test
+* Your code should be write in /app/string-quest.js
 * If you wish to not make public, your submission, please complete the code in your local repository and email a patch file to [fajar@urbanhire.com](mailto:fajar@urbanhire.com)
 * Please note that you will also be judged on the elegance of your code, level of abstraction and technical skills presented in the implementation. For more details, refer to the Judging Criteria section below.
 
