@@ -8,7 +8,7 @@ module.exports = {
         headless: true
       })
 
-      const page = await browser.newPage();
+      const page = await browser.newPage()
 
       await page.goto('https://www.urbanhire.com/jobs?q=engineer')
 
@@ -42,7 +42,7 @@ module.exports = {
         let jobIndustry = await page.$(jobIndustrySelector)
         let jobLocation = await page.$(jobLocationSelector)
         let image = await page.$(imageSelector)
-      
+
         let objCompanyName = await page.evaluate(companyName => companyName.innerText, companyName)
         let objJobName = await page.evaluate(jobName => jobName.innerText, jobName)
         let objJobIndustry = await page.evaluate(jobIndustry => jobIndustry.innerText, jobIndustry)
@@ -65,7 +65,7 @@ module.exports = {
         await Jobs.create(payload)
         hasil.push(payload)
 
-        previousHeight = await page.evaluate('document.body.scrollHeight')
+        // previousHeight = await page.evaluate('document.body.scrollHeight')
         await page.evaluate(`window.scrollTo(0, 500*${i})`)
         await page.waitFor(800)
       }
@@ -76,9 +76,8 @@ module.exports = {
         message: 'Berhasil scraping data',
         jobs: hasil
       })
-
     } catch (error) {
-      next (error)
+      next(error)
     }
   }
 }

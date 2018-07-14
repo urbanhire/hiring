@@ -13,8 +13,8 @@ const {
 } = require('../controllers/data.controller')
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/', function (req, res, next) {
+  res.render('index', { title: 'Express' })
 })
 
 router.get('/scrape', scrape)
@@ -25,4 +25,4 @@ router.post('/', createJob)
 router.put('/:jobslug', updateJob)
 router.delete('/:jobslug', deleteJob)
 
-module.exports = router;
+module.exports = router

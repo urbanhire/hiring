@@ -63,7 +63,7 @@ module.exports = {
   },
   async searchJob (req, res, next) {
     try {
-      let jobs = await Jobs.find({ "jobName": { "$regex": req.params.query, "$options": "i" } })
+      let jobs = await Jobs.find({ 'jobName': { '$regex': req.params.query, '$options': 'i' } })
 
       res.status(200).json({
         message: 'Berhasil mengubah data',
