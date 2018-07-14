@@ -25,7 +25,7 @@ const jobSchema = mongoose.Schema({
     type: String,
     required: [true, 'Harap masukan job slug']
   },
-  companyLogo: String,
+  companyLogo: String
 }, {
   timestamps: true
 })
