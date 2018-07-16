@@ -1,0 +1,23 @@
+{
+    "env": "development",
+
+    "protocol": "http",
+    "host": "localhost",
+    "port": 4500,
+
+    "db": {
+        "host": "127.0.0.1",
+        "port": 27107,
+        "db_name": "urbanhires"
+    },
+
+    "redis" : {
+        "host": "127.0.0.1",
+        "port": 6379
+    },
+    
+    "elasticsearch": {
+        "host": "127.0.0.1",
+        "port": 9200
+    }
+}

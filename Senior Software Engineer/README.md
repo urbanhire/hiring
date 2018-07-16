@@ -59,3 +59,13 @@ This is the Urbanhire Senior Software Engineer challenge. The rules of the chall
 
 
 # Happy Hacking!
+
+
+### Setup & Running
+-----
+* Rename config.json.example to config.json and change credetial
+* sudo npm install -g mocha 
+* npm install
+* mocha test
+* node index.js
+
