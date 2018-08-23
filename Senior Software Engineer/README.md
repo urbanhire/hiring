@@ -1,7 +1,10 @@
-# Senior-Software-Engineer-Challenge
+# Senior Software Engineer Coding Test
 
-`version 1.0`
-`challenge status: open`
+```
+  version 1.0
+  challenge status: open
+```
+
 
 Welcome! We've been expecting you. Urbanhire is tools empower companies to inspire and make their culture visible. We don’t believe boring and transactional job posts are effective in sourcing tech-savvy millennials
 
@@ -11,7 +14,7 @@ If you're someone who bleeds code and aches to make a difference in the world, t
 
 ## Basics
 
-This is the Urbanhire Senior Software Engineer challenge. The rules of the challenge are very simple and are as follows
+This is the Urbanhire Senior Software Engineer challenge. The rules of the challenge are very simple and are as follows. Please read carefully all the requirements.
 
 * You are required to code in javascript
 * You will be able to submit the challenge base on deadline will be inform from your interviewer.
@@ -23,7 +26,7 @@ This is the Urbanhire Senior Software Engineer challenge. The rules of the chall
 ## The Challenge
 
 ### What You'll need to build
-* You'll need to build a scraper, that will scrape this [website](https://www.karirpad.com/lowongan/kerja/semuanya) and store them in a database (e.g [Urbanhire Jobs](https://www.linkedin.com/jobs/view-all) ) we prefer you use **MongoDB** as database since we used it right now, and please use [Mongoose](http://mongoosejs.com/) as ODM for your MongoDB
+* You'll need to build a scraper, that will scrape this [website](https://www.karirpad.com/lowongan/kerja/semuanya) and store them in a database (e.g [Urbanhire Jobs](https://www.karirpad.com/lowongan/kerja/semuanya) ) we prefer you use **MongoDB** as database since we used it right now, and please use [Mongoose](http://mongoosejs.com/) as ODM for your MongoDB
 * You will then need to provide an API or end-point using [ExpressJS](http://expressjs.com) or  [Fastify](https://www.fastify.io/) Framework to provide list jobs, details jobs, add new job, update, remove job and search as well.
 * `jobSlug` or `jobId` There should be an uniq filed to show us the jobs information with API end-points
 
@@ -35,6 +38,8 @@ This is the Urbanhire Senior Software Engineer challenge. The rules of the chall
 * the scraper can be written in any language (Bonus points for being written in nodejs! :D)
 * the scraper should store -
   * Job Name
+  * Job Link Source (uniq)
+  * Website Source
   * Company Company
   * Company Logo
   * Job Location
