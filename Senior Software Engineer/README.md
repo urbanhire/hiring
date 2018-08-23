@@ -38,6 +38,7 @@ This is the Urbanhire Senior Software Engineer challenge. The rules of the chall
 * the scraper can be written in any language (Bonus points for being written in nodejs! :D)
 * the scraper should store to mongodb
   * Job Name
+  * job Slug (SEO Friendly slug and unique)
   * Job Link Source (unique)
   * Website Source
   * Company Company
