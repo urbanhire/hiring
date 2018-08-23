@@ -36,9 +36,9 @@ This is the Urbanhire Senior Software Engineer challenge. The rules of the chall
 #### Scraper
 
 * the scraper can be written in any language (Bonus points for being written in nodejs! :D)
-* the scraper should store -
+* the scraper should store to mongodb
   * Job Name
-  * Job Link Source (uniq)
+  * Job Link Source (unique)
   * Website Source
   * Company Company
   * Company Logo
@@ -49,10 +49,11 @@ This is the Urbanhire Senior Software Engineer challenge. The rules of the chall
 
 
 #### API
-* You have to build an end point to accept a query, q, which will return the 10 jobs (return only name, company name, location and "job id") with the most similar name (full-text search). If you able to make full text search and filter with Elasticsearch, it will a huge point for you.
+* You have to build an end point to accept a query, q, which will return the 10 jobs (return only name, company name, location and "job id") with the most similar name (full-text search). If you able to make full text search and filter with Elasticsearch, it will a huge point for you. Since we use Elasticsearch as core for our search enginee on our [job search](https://www.urbanhire.com/en/jobs?location=jakarta)
 * The end point should return the jobs in JSON format
 * You will have to also build an api endpoint to then retrive the job detail information for a given job id.
 * There should also be an endpoint to manually insert, remove and update data into the database.
+* Please use correct http method for every API endpoint
 * Its good and nice to have if you also do a TDD to all the API
 * It also will be good if you create a **cache** for get detail api with Redis
 
