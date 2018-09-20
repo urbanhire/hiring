@@ -23,7 +23,7 @@ This is the Urbanhire backend developer challenge. The rules of the challenge ar
 ## The Challenge
 
 ### What You'll need to build
-* You'll need to build a scraper, that will scrape this [website](https://www.karirpad.com/lowongan/kerja/semuanya) and store them in a database (e.g [Urbanhire Jobs](https://www.linkedin.com/jobs/view-all) ) we prefer you use **MongoDB** as database since we used it right now, and please use [Mongoose](http://mongoosejs.com/) as ODM for your MongoDB
+* You'll need to build a scraper, that will scrape this [website](https://id.jobplanet.com/search?category=&query=&_rs_con=welcome&_rs_act=index&_rs_element=main_search_bar) and store them in a database (e.g [Urbanhire Jobs](https://www.linkedin.com/jobs/view-all) ) we prefer you use **MongoDB** as database since we used it right now, and please use [Mongoose](http://mongoosejs.com/) as ODM for your MongoDB
 * You will then need to provide an API or end-point using [ExpressJS](http://expressjs.com) or  [Fastify](https://www.fastify.io/) Framework to provide list jobs, details jobs.
 * `jobSlug` or `jobId` There should be an uniq filed to show us the jobs information with API end-points
 
