@@ -3,7 +3,7 @@ const schema = mongoose.Schema;
 
 const jobSchema = new schema({
   jobName: String,
-  company: String,
+  companyName: String,
   companyLogo: String,
   jobLocation: String,
   jobFunction: String,
