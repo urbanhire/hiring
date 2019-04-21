@@ -28,15 +28,18 @@ const jobSchema = new schema({
           slug: v
         })
           .then((result) => {
-            throw new Error('Slug has been registered')
+            if (result) {
+              throw new Error('Slug has been registered');
+            }
           }).catch((err) => {
-            throw new Error(err.errors)
+            throw new Error(err.errors);
           });
       }
     }]
   },
 });
 
+jobSchema.index({'$**': 'text'})
 
 const Job = mongoose.model('Job', jobSchema);
 
