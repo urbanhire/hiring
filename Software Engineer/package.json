@@ -12,9 +12,14 @@
   },
   "scripts": {
     "start": "node ./app.js",
-    "watch": "./node_modules/nodemon/bin/nodemon.js ./app.js"
+    "watch": "./node_modules/nodemon/bin/nodemon.js ./app.js",
+    "test": "./node_modules/jest/bin/jest.js --coverage  --runInBand --forceExit"
   },
   "devDependencies": {
-    "nodemon": "^1.18.11"
+    "chai": "^4.2.0",
+    "chai-subset": "^1.6.0",
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.11",
+    "supertest": "^4.0.2"
   }
 }

@@ -2,7 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
-const mongoDB = process.env.MONGODB_URL;
+
+const env = process.env.NODE_ENV;
+const mongoDB = (env === 'development') ?  process.env.MONGODB_URL : process.env.MONGODB_URL_TEST;
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.set('useCreateIndex', true);
 
@@ -16,4 +18,8 @@ app.use(express.json());
 
 app.use('/', index);
 
-app.listen(port, () => console.log(`App listening in port ${port}`));
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(port, () => console.log(`App listening in port ${port}`));
+}
+
+module.exports = app;

@@ -123,11 +123,11 @@ module.exports = {
         _id: jobId
       });
       if (!job) {
-        return res.status(200).send({ message: 'job not found!'});
+        return res.status(400).send({ message: 'job not found!'});
       }
       return res.status(200).send(jobDeleted);
     } catch (error) {
-      return res.status(400).send({ message: error.message });
+      return res.status(500).send({ message: error.message });
     }
   },
 };
