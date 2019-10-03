@@ -7,7 +7,7 @@ You can use [jsbin.com](http://jsbin.com/soqizuk/2/edit?js,output) for this.
 ___
 II. Please create function  to add up a list of numbers. and the number returned is only one.
 example: 10+5 = 15 => 1+5 = **6**
-**Note**: Imagine how your code can be read in other programming languages. It's mean you can't use magic that can only be run on my javascript.
+**Note**: Imagine how your code can be read in other programming languages. It's mean you can't use magic that can only be run on javascript.
 You can use [jsbin.com](http://jsbin.com/soqizuk/2/edit?js,output) for this. 
 ___
 
